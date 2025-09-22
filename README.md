@@ -22,24 +22,28 @@ It documents the actual files, models and pickles in the repo, how to run locall
 
 ## 📦 Project Tree (Core)
 
+```
+
 ANN-Churn-and-Salary-Prediction/
 │── .gitignore
-│── Churn_Modelling.csv # raw dataset used for churn model
-│── app.py # Streamlit app — Churn prediction (classification)
-│── rgapp.py # Streamlit app — Salary prediction (regression)
-│── model.h5 # pre-trained churn model (Keras .h5)
-│── rgmodel.h5 # pre-trained salary model (Keras .h5)
-│── ohe_geo.pkl # OneHotEncoder (geography) — churn preprocessing
-│── ohe_geo_salary.pkl # OneHotEncoder (geography) — salary preprocessing
-│── le_gender.pkl # LabelEncoder (gender) — churn preprocessing
-│── le_gender_salary.pkl # LabelEncoder (gender) — salary preprocessing
-│── scaler.pkl # StandardScaler — churn preprocessing
-│── scaler_salary.pkl # StandardScaler — salary preprocessing
-│── experiments.ipynb # training/EDA notebook(s)
-│── prediction.ipynb # example inference notebook
-│── logs/ # TensorBoard logs (training runs)
-│── requirements.txt # Python dependencies
-└── README.md 
+│── Churn\_Modelling.csv          # raw dataset used for churn model
+│── app.py                       # Streamlit app — Churn prediction (classification)
+│── rgapp.py                     # Streamlit app — Salary prediction (regression)
+│── model.h5                     # pre-trained churn model (Keras .h5)
+│── rgmodel.h5                   # pre-trained salary model (Keras .h5)
+│── ohe\_geo.pkl                  # OneHotEncoder (geography) — churn preprocessing
+│── ohe\_geo\_salary.pkl           # OneHotEncoder (geography) — salary preprocessing
+│── le\_gender.pkl                # LabelEncoder (gender) — churn preprocessing
+│── le\_gender\_salary.pkl         # LabelEncoder (gender) — salary preprocessing
+│── scaler.pkl                   # StandardScaler — churn preprocessing
+│── scaler\_salary.pkl            # StandardScaler — salary preprocessing
+│── experiments.ipynb            # training/EDA notebook(s)
+│── prediction.ipynb             # example inference notebook
+│── logs/                        # TensorBoard logs (training runs)
+│── requirements.txt             # Python dependencies
+└── README.md                    # (this file)
+
+```
 
 ---
 
